@@ -11,9 +11,9 @@ plt.rcParams.update({'font.size': fs})
 
 # parameters
 beta_0 = 0
-beta_1 = 1
+beta_1_values = [-1, 1, 2]
 beta_2 = 1
-beta_12_values = [-2, -1, -.5]
+beta_12 = 0
 
 # linear space of x1 and x2
 X1, X2 = np.meshgrid(np.linspace(-2, 2, 100),
@@ -29,11 +29,11 @@ gs = fig.add_gridspec(3, 2, width_ratios=[1, 6],
                       wspace=-.7,    # space between columns
                       hspace=0.2)    # space between rows
 
-for i, beta_12 in enumerate(beta_12_values):
+for i, beta_1 in enumerate(beta_1_values):
     
     # XB and P(Y=1)
     XB = beta_0 + beta_1 * X1 + beta_2 * X2 + beta_12 * X1 * X2
-    
+
     # logistic cdf
     p = 1 / (1 + np.exp(-XB))
     
@@ -45,6 +45,7 @@ for i, beta_12 in enumerate(beta_12_values):
     pos = [inteff>0 for inteff in interaction_effect.flat].count(1) / (100*100)
     neg = [inteff<0 for inteff in interaction_effect.flat].count(1) / (100*100)
 
+    
     
     # Heatmap
     ax1 = fig.add_subplot(gs[i, 0])
@@ -81,6 +82,6 @@ for i, beta_12 in enumerate(beta_12_values):
 
 plt.subplots_adjust(left=0.006, right=0.94, top=0.95, bottom=0.05)
 #plt.tight_layout()
-plt.savefig('interaction_effects.png', dpi=50, bbox_inches='tight')
+plt.savefig('fig3.png', dpi=50, bbox_inches='tight')
 plt.show()
 
