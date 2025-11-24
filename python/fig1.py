@@ -81,6 +81,6 @@ for i, beta_12 in enumerate(beta_12_values):
 
 plt.subplots_adjust(left=0.006, right=0.94, top=0.95, bottom=0.05)
 #plt.tight_layout()
-plt.savefig('interaction_effects.png', dpi=50, bbox_inches='tight')
+plt.savefig('fig1.png', dpi=50, bbox_inches='tight')
 plt.show()
 

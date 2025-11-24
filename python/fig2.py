@@ -84,4 +84,3 @@ plt.subplots_adjust(left=0.006, right=0.94, top=0.95, bottom=0.05)
 #plt.tight_layout()
 plt.savefig('fig2.png', dpi=50, bbox_inches='tight')
 plt.show()
-
