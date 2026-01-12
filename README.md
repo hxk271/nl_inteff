@@ -8,7 +8,7 @@
 
 Online Appendix로 돌린 부연 설명은 이 [링크](https://github.com/hxk271/nl_inteff/blob/main/docs/online_appendix.pdf)를 참고하세요. 익명의 심사자의 조언을 추가로 반영한 부분입니다.
 
-시뮬레이션을 위한 Python 코드는 [링크 #1](https://github.com/hxk271/nl_inteff/blob/main/python/fig1.py), [링크 #2](https://github.com/hxk271/nl_inteff/blob/main/python/fig2.py), [링크 #3](https://github.com/hxk271/nl_inteff/blob/main/python/fig3.py)를 참고하세요.
+시뮬레이션을 위한 Python 코드는 [링크 #1](https://github.com/hxk271/nl_inteff/blob/main/python/fig1.py), [링크 #2](https://github.com/hxk271/nl_inteff/blob/main/python/fig2.py), [링크 #3](https://github.com/hxk271/nl_inteff/blob/main/python/fig3.py)를 참고하세요. 각각의 결과물은 [링크 #1](https://github.com/hxk271/nl_inteff/blob/main/python/fig1.png), [링크 #2](https://github.com/hxk271/nl_inteff/blob/main/python/fig2.png), [링크 #3](https://github.com/hxk271/nl_inteff/blob/main/python/fig3.png)를 참고하시면 됩니다.
 
 Stata 코드는 이 [링크](https://github.com/hxk271/nl_inteff/blob/main/stata/nonlinear_interaction_effects.do)를 참고하세요.
 
