@@ -8,4 +8,6 @@
 
 Online Appendix로 돌린 부연 설명은 이 [링크](https://github.com/hxk271/nl_inteff/blob/main/docs/online_appendix.pdf)를 참고하세요. 익명의 심사자의 조언을 추가로 반영한 부분입니다.
 
+Stata 코드는 이 [링크](https://github.com/hxk271/nl_inteff/blob/main/stata/nonlinear_interaction_effects.do)를 참고하세요.
+
 완성까지 조금만 더 기다려주십시오.
